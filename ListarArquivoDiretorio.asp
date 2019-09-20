@@ -1,5 +1,5 @@
 <%
-'https://github.com/fernando-nishino/ClassicASP.Functions
+'https://github.com/fernando-nishino/ClassicASP.ListarArquivoDiretorio
 
 Sub Explorar(ByVal pasta, ByVal nos)
 	Response.Write String(nos, ">") & pasta.Name & "<BR>"
